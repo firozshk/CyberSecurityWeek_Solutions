@@ -39,15 +39,15 @@ In this task, you will make a user eligible for an Azure AD directory role.
 
 1. Sign-in to the Azure portal **`https://portal.azure.com/`**.
 
-    >**Note**: Ensure that you are signed-in to the **AdatumLab500-04** Azure AD tenant. You can use the **Directory + subscription** filter to switch between Azure AD tenants. Ensure you are signed in as a user with the Global Administrator role.
+    >**Note**: Ensure that you are signed-in to the **Azure Subscrition** Azure AD tenant. You can use the **Directory + subscription** filter to switch between Azure AD tenants. Ensure you are signed in as a user with the Global Administrator role.
 
 1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Azure AD Privileged Identity Management** and press the **Enter** key.
 
 1. On the **Azure AD Privileged Identity Management** blade, in the **Manage** section, click **Azure AD roles**.
 
-1. On the **AdatumLab500-04 \| Quick start** blade, in the **Manage** section, click **Roles**.
+1. On the **Azure Subscrition | Quick start** blade, in the **Manage** section, click **Roles**.
 
-1. On the **AdatumLab500-04 \| Roles** blade, click **+ Add assignments**.
+1. On the **Azure Subscrition | Roles** blade, click **+ Add assignments**.
 
 1. On the **Add assignments** blade, in the **Select a role** drop-down, select **Billing Administrator**.
 
@@ -57,9 +57,9 @@ In this task, you will make a user eligible for an Azure AD directory role.
 
 1. Ensure the **Assignment type** is set to **Eligible** and click **Assign**.
  
-1. Back on the **AdatumLab500-04 \| Roles** blade, in the **Manage** section, click **Assignments**.
+1. Back on the **Azure Subscrition | Roles** blade, in the **Manage** section, click **Assignments**.
 
-1. Back on the **AdatumLab500-04 \| Assignments** blade, note the tabs for **Eligible assignments**, **Active assignments**, and **Expired assignments**.
+1. Back on the **Azure Subscrition | Assignments** blade, note the tabs for **Eligible assignments**, **Active assignments**, and **Expired assignments**.
 
 1. Verify on the **Eligible assignments** tab that **aaduser2** is shown as a **Billing administrator**. 
 
@@ -69,9 +69,9 @@ In this task, you will make a user eligible for an Azure AD directory role.
 
 1. In the Azure Portal, navigate back to the **Azure AD Privileged Identity Management** blade and click **Azure AD roles**.
 
-1. On the **AdatumLab500-04 \| Quick start** blade, in the **Manage** section, click **Roles**.
+1. On the **Azure Subscrition | Quick start** blade, in the **Manage** section, click **Roles**.
 
-1. On the **AdatumLab500-04 \| Roles** blade, click the **Global reader** role entry. 
+1. On the **Azure Subscrition | Roles** blade, click the **Global reader** role entry. 
 
 1. On the **Global Reader \| Assignments** blade, click **Settings** icon in the toolbar of the blade and review configuration settings for the role, including Azure Multi-Factor Authentication requirements.
 
@@ -250,7 +250,7 @@ In this task, you will reduce the risk associated with "stale" role assignments.
 
 1. Sign-in to the Azure portal **`https://portal.azure.com/`** using your account.
 
-    >**Note**: Ensure that you are signed-in to the **AdatumLab500-04** Azure AD tenant. You can use the **Directory + subscription** filter to switch between Azure AD tenants. Ensure you are signed in as a user with the Global Administrator role.
+    >**Note**: Ensure that you are signed-in to the **Azure Subscrition** Azure AD tenant. You can use the **Directory + subscription** filter to switch between Azure AD tenants. Ensure you are signed in as a user with the Global Administrator role.
 
 1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Azure AD Privileged Identity Management** and press the **Enter** key.
 
@@ -258,9 +258,9 @@ In this task, you will reduce the risk associated with "stale" role assignments.
 
 1. On the **Privileged Identity Management \| Quick start** blade, in the **Manage** section, click **Azure AD Roles**.
 
-1. On the **AdatumLab500-04 \| Quick start** blade, in the **Manage** section, click **Access reviews**.
+1. On the **Azure Subscrition | Quick start** blade, in the **Manage** section, click **Access reviews**.
 
-1. On the **AdatumLab500-04 \| Access reviews** blade, click **New**:
+1. On the **Azure Subscrition | Access reviews** blade, click **New**:
 
 1. On the **Create an access review** blade, specify the following settings (leave others with their default values): 
 
@@ -276,9 +276,9 @@ In this task, you will reduce the risk associated with "stale" role assignments.
 
 1. On the **Create an access review** blade, click **Start**:
  
-    >**Note**: It will take about a minute for the review to deploy and appear on the **AdatumLab500-04 \| Access reviews** blade. You might have to refresh the web page. The review status will be **Active**. 
+    >**Note**: It will take about a minute for the review to deploy and appear on the **Azure Subscrition | Access reviews** blade. You might have to refresh the web page. The review status will be **Active**. 
 
-1. On the **AdatumLab500-04 \| Access reviews** blade, under the **Global Admin Review** header, click the **Global Reader** entry. 
+1. On the **Azure Subscrition | Access reviews** blade, under the **Global Admin Review** header, click the **Global Reader** entry. 
 
 1. On the **Global Reader Review** blade, examine the **Overview** page and note that the **Progress** charts shows a single users in the **Not reviewed** category. 
 
@@ -286,9 +286,9 @@ In this task, you will reduce the risk associated with "stale" role assignments.
 
 1. Click **aaduser2** to view a detailed audit log with entries representing PIM activities that involve that user.
 
-1. Navigate back to the **AdatumLab500-04 \| Access reviews** blade.
+1. Navigate back to the **Azure Subscrition | Access reviews** blade.
 
-1. On the the **AdatumLab500-04 \| Access reviews** blade, in the **Tasks** section, click **Review access** and then, click the **Global Reader Review** entry. 
+1. On the the **Azure Subscrition | Access reviews** blade, in the **Tasks** section, click **Review access** and then, click the **Global Reader Review** entry. 
 
 1. On the **Global Reader Review** blade, click the **aaduser2** entry. 
 
@@ -296,7 +296,7 @@ In this task, you will reduce the risk associated with "stale" role assignments.
 
 1. Navigate back to the **Azure AD Privileged Identity Management** blade and, in the **Manage** section, click **Azure AD roles**.
 
-1. On the **AdatumLab500-04 \| Quick start** blade, in the **Manage** section, click **Access reviews**.
+1. On the **Azure Subscrition | Quick start** blade, in the **Manage** section, click **Access reviews**.
 
 1. Select the entry representing the **Global Reader** review. Note that the **Progress** chart has been updated to show your review. 
 
@@ -306,15 +306,15 @@ In this task, you will review PIM alerts, summary information, and detailed audi
 
 1. Navigate back to the **Azure AD Privileged Identity Management** blade and, in the **Manage** section, click **Azure AD roles**.
 
-1. On the **AdatumLab500-04 \| Quick start** blade, in the **Manage** section, click **Alerts**, and then click **Setting**.
+1. On the **Azure Subscrition | Quick start** blade, in the **Manage** section, click **Alerts**, and then click **Setting**.
 
 1. On the **Alert settings** blade, review the preconfigured alerts and risk levels. Click on any of them for more detailed information. 
 
-1. Return to the **AdatumLab500-04 \| Quick start** blade and click **Overview**. 
+1. Return to the ** Azure Subscrition| Quick start** blade and click **Overview**. 
 
-1. On the **AdatumLab500-04 \| Overview** blade, review summary information about role activations, PIM activities, alerts, and role assignments.
+1. On the **Azure Subscrition | Overview** blade, review summary information about role activations, PIM activities, alerts, and role assignments.
 
-1. On the **AdatumLab500-04 \| Overview** blade, in the **Activity** section, click **Resource audit**. 
+1. On the **Azure Subscrition | Overview** blade, in the **Activity** section, click **Resource audit**. 
 
     >**Note**: Audit history is available for all privileged role assignments and activations within the past 30 days.
 
@@ -340,7 +340,7 @@ In this task, you will review PIM alerts, summary information, and detailed audi
 
 1.  Close the **Cloud Shell** pane. 
 
-1. Back in the Azure portal, use the **Directory + subscription** filter to switch to the **AdatumLab500-04** Azure Active Directory tenant.
+1. Back in the Azure portal, use the **Directory + subscription** filter to switch to the **Azure Subscrition** Azure Active Directory tenant.
 
 1. Navigate to the **Azure Active Directory Premium P2 - Licensed users** blade, select the user accounts to which you assigned licenses, click **Remove license**, and, when prompted to confirm, click **OK**.
 
@@ -348,10 +348,10 @@ In this task, you will review PIM alerts, summary information, and detailed audi
 
 1. Repeat the same sequence of steps to delete the remaining user accounts you created.
 
-1. Navigate to the **AdatumLab500-04 - Overview** blade of the Azure AD tenant, click **Delete tenant**, on the **Delete directory 'AdatumLab500-04'** blade, click the **Get permission to delete Azure resources** link, on the **Properties** blade of Azure Active Directory, set **Access management for Azure resources** to **Yes** and click **Save**.
+1. Navigate to the **Azure Subscrition - Overview** blade of the Azure AD tenant, click **Delete tenant**, on the **Delete directory 'Azure Subscrition'** blade, click the **Get permission to delete Azure resources** link, on the **Properties** blade of Azure Active Directory, set **Access management for Azure resources** to **Yes** and click **Save**.
 
 1. Sign out from the Azure portal and sign in back. 
 
-1. Navigate back to the **Delete directory 'AdatumLab500-04'** blade and click **Delete**.
+1. Navigate back to the **Delete directory 'Azure Subscrition4'** blade and click **Delete**.
 
 > For any additional  information regarding this task, refer to [https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-delete-howto](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-delete-howto)
