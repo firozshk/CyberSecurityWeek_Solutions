@@ -107,9 +107,9 @@ In this task, you will make a user eligible for an Azure AD directory role.
 
 1. In the Azure Portal, navigate back to the **Azure AD Privileged Identity Management** blade and click **Azure AD roles**.
 
-1. On the **AdatumLab500-04 \| Quick start** blade, in the **Manage** section, click **Roles**.
+1. On the **Azure Subscrition | Quick start** blade, in the **Manage** section, click **Roles**.
 
-1. On the **AdatumLab500-04 \| Roles** blade, click **+ Add assignments**.
+1. On the **Azure Subscrition | Roles** blade, click **+ Add assignments**.
 
 1. On the **Add assignments** blade, in the **Select role** drop-down, select **Security Administrator**.
 
