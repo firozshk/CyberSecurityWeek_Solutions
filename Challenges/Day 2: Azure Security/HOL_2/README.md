@@ -1,7 +1,5 @@
-# Lab : Azure Sentinel
+# Lab : Azure Sentinel Automation 
 # Student lab manual
-
-## Lab scenario
 
 ## Lab scenario
 
